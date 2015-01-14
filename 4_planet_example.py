@@ -61,12 +61,15 @@ elif(planet == "Mars"):
         d = 249*(10**9)
         
 #Check if the planet is Mercury and set the necessary values
-elif(planet == "Mercury"):
+else:
     m_2 = 3.3022*(10**23)
     if(distance == "Close"):
         d = 46*(10**9)
     else:
         d = 70*(10**9)
+        
+#What would happen if there was a spelling mistake when we
+#assigned planet, or if we chose Pluto (which is not a planet)?
 
 m_1 = 1.9891*(10**30)   #The mass of the Sun       
 G = 6.673*(10**(-11))   #The gravitational constant
