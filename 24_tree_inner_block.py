@@ -7,10 +7,10 @@ elif skin == "feathers":
 elif skin == "scales":
     print "fish"
 elif skin == "skin":
-    wetness = raw_input("Is the skin moist or dry? ")
-    if wetness == "dry":
+    dry_or_moist = raw_input("Is the skin moist or dry? ")
+    if dry_or_moist == "dry":
         print "reptile"
-    elif wetness == "moist":
+    elif dry_or_moist == "moist":
         print "amphibian"
     else:
         print "skin must be either dry or moist"
