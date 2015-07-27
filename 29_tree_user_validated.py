@@ -17,7 +17,7 @@ while ask_for_skin:
     if skin == "fur":
         print "mammal"
     elif skin == "feathers":
-        print "feathers"
+        print "bird"
     elif skin == "scales":
         print "fish"
     elif skin == "skin":

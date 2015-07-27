@@ -3,7 +3,7 @@ skin = raw_input("What type of skin does the animal have? ")
 if skin == "fur":
     print "mammal"
 elif skin == "feathers":
-    print "feathers"
+    print "bird"
 elif skin == "scales":
     print "fish"
 elif skin == "skin":
