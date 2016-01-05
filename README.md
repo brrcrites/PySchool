@@ -9,6 +9,5 @@ If you are interested in learning more about this project, or in using this mate
 Brian Crites  
 Graduate Student - Computer Science  
 University of California, Riverside  
-
-brrcrites@gmail.com
+brrcrites@gmail.com  
 
