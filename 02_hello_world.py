@@ -1,3 +1,3 @@
-print "hello world"
+print("hello world")
 name = "Issac Newton"
-print name
+print(name)

@@ -11,18 +11,18 @@ while index < 8:
 
     m_2 = mass[index]           #The mass of the current plan
 
-    print "Force when " + planets[index] + " is close to the Sun"
+    print("Force when " + planets[index] + " is close to the Sun")
 
     d = close_distance[index]   #The distance when the planet is close
     G = 6.673*(10**(-11))       #The gravitational constant
     F = (G*m_1*m_2)/(d**2)      #Calculate the force
-    print F                     #Print the value found
+    print(F)                    #Print the value found
 
-    print "Force when " + planets[index] + " is far from the Sun"
+    print("Force when " + planets[index] + " is far from the Sun")
 
     d = far_distance[index]     #The distance when the planet is far
     G = 6.673*(10**(-11))       #The gravitational constant
     F = (G*m_1*m_2)/(d**2)      #Calculate the force
-    print F                     #Print the value found
+    print(F)                    #Print the value found
 
     index = index + 1           #Increment the index

@@ -1,6 +1,6 @@
 i = 6
-print "i > 3?"
+print("i > 3?")
 if i > 3:
-    print "yes"
+    print("yes")
 else:
-    print "no"
+    print("no")

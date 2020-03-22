@@ -1,6 +1,6 @@
 pi = "pi"
-print pi
+print(pi)
 pi = 3
-print pi
+print(pi)
 pi = 3.14
-print pi
+print(pi)

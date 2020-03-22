@@ -4,4 +4,4 @@ def slope(x, y, b):
     
 m = slope(5.0, 7.0, 2.0)
 
-print m
+print(m)

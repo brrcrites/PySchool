@@ -3,7 +3,7 @@
 ask_for_skin = True
 
 while ask_for_skin:
-    skin = raw_input("What type of skin does the animal have? ")
+    skin = input("What type of skin does the animal have? ")
     
     #We have a user input, but we haven't validated it yet. Since
     #we already have an if/elif/else block that catches invalid input
@@ -15,23 +15,23 @@ while ask_for_skin:
     ask_for_skin = False
     
     if skin == "fur":
-        print "mammal"
+        print("mammal")
     elif skin == "feathers":
-        print "bird"
+        print("bird")
     elif skin == "scales":
-        print "fish"
+        print("fish")
     elif skin == "skin":
-        dry_or_moist = raw_input("Is the skin moist or dry? ")
+        dry_or_moist = input("Is the skin moist or dry? ")
         if dry_or_moist == "dry":
-            print "reptile"
+            print("reptile"0
         elif dry_or_moist == "moist":
-            print "amphibian"
+            print("amphibian")
         else:
-            print "skin must be either dry or moist"
+            print("skin must be either dry or moist")
             
     #Since this else catches all invalid input, if we get here then we
     #know the input was invalid and we need to ask for input again
     
     else:
-        print "not a proper skin type, please try again"
+        print("not a proper skin type, please try again")
         ask_for_skin = True

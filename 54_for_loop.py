@@ -3,5 +3,5 @@ planets = ["Jupiter", "Saturn", "Neptune", "Uranus", "Earth", "Venus", "Mars", "
 index = 0
 while index < len(planets):
     item = planets[index]
-    print item
+    print(item)
     index = index + 1

@@ -9,15 +9,15 @@ for planet in mass:
     m_2 = mass[planet]
 
     d = close_distance[planet]
-    print "The force between " + planet + " and the Sun at it's closest distance is..."
+    print("The force between " + planet + " and the Sun at it's closest distance is...")
     m_1 = 1.9891*(10**30)   #The mass of the Sun       
     G = 6.673*(10**(-11))   #The gravitational constant
     F = (G*m_1*m_2)/(d**2)  #Calculate the force
-    print F                 #Print the value found
+    print(F)                #Print the value found
     
     d = far_distance[planet]
-    print "The force between " + planet + " and the Sun at it's furthest distances is..."
+    print("The force between " + planet + " and the Sun at it's furthest distances is...")
     m_1 = 1.9891*(10**30)   #The mass of the Sun       
     G = 6.673*(10**(-11))   #The gravitational constant
     F = (G*m_1*m_2)/(d**2)  #Calculate the force
-    print F                 #Print the value found
+    print(F)                #Print the value found

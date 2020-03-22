@@ -8,18 +8,18 @@ distance_incorrect = True
 while planet_incorrect and distance_incorrect:
 
     #Choose one of the 8 planets
-    planet = raw_input("Which planet do you want to calculate for? ")
+    planet = input("Which planet do you want to calculate for? ")
 
     #Choose either "Close" or "Far"
-    distance = raw_input("Do you want to calculate the Close or Far disntace? ")
+    distance = input("Do you want to calculate the Close or Far disntace? ")
 
     #It is still easier to check if the distance is correct at the beginning
     #since it will mean less lines of code than doing it in the if/else statements
     if distance == "Close" or distance == "Far":
         distance_incorrect = False
     else:
-        #We should print an error message letting the user know what they did wrong
-        print "You have entered an invalid distance, please try again"
+        #We should print(an error message letting the user know what they did wrong
+        print("You have entered an invalid distance, please try again")
         distance_incorrect = True
 
     #Check if the planet is Jupiter and set the necessary values
@@ -97,11 +97,11 @@ while planet_incorrect and distance_incorrect:
     #If none of the others were correct, then we have an incorrect input, so we should
     #update planet_incorrect to reflect that
     else:
-        print "You have entered an invalid planet, please try again"
+        print("You have entered an invalid planet, please try again")
         planet_incorrect = True
 
 
 m_1 = 1.9891*(10**30)   #The mass of the Sun       
 G = 6.673*(10**(-11))   #The gravitational constant
 F = (G*m_1*m_2)/(d**2)  #Calculate the force
-print F                 #Print the value found
+print(F)                #Print the value found

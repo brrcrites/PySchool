@@ -1,6 +1,6 @@
 def slope(x, y, b):
     m = (y - b) / x
-    print m
+    print(m)
     
 x = 5.0
 y = 7.0

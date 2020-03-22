@@ -1,12 +1,12 @@
 #Choose one of the 8 planets
-planet_input = raw_input("Which planet do you want to calculate for? ")
+planet_input = input("Which planet do you want to calculate for? ")
 
 #Choose either "Close" or "Far"
-distance_input = raw_input("Do you want to calculate the Close or Far disntace? ")
+distance_input = input("Do you want to calculate the Close or Far disntace? ")
 
 if distance_input != "Close":
     if distance_input != "Far":
-        print "You must enter either Close or Far for your distance"
+        print("You must enter either Close or Far for your distance")
         exit()
 
 #Check if the planet is Jupiter and set the necessary values
@@ -75,11 +75,11 @@ elif planet_input == "Mercury":
 
 #If the planet is anything else, we should tell the user and end the program
 else:
-    print "You have not entered a valid planet"
+    print("You have not entered a valid planet")
     exit()
 
 
 mass1 = 1.9891*(10**30)                         #The mass of the Sun       
 gravity = 6.673*(10**(-11))                     #The gravitational constant
 force = (gravity*mass1*mass2)/(distance**2)     #Calculate the force
-print force                                     #Print the value found
+print(force)                                    #Print the value found

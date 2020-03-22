@@ -1,14 +1,14 @@
-skin = raw_input("What type of skin does the animal have? ")
+skin = input("What type of skin does the animal have? ")
 
 if skin == "fur":
-    print "mammal"
+    print("mammal")
 elif skin == "feathers":
-    print "bird"
+    print("bird")
 elif skin == "scales":
-    print "fish"
+    print("fish")
 elif skin == "dry skin":
-    print "reptile"
+    print("reptile")
 elif skin == "moist skin":
-    print "amphibian"
+    print("amphibian")
 else:
-    print "not a proper skin type"
+    print("not a proper skin type")
